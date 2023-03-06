@@ -31,11 +31,11 @@
     display: flex;
 }
 .contact-left{
-    flex-basis: 60%;
+    width: 60%;
     padding: 20px 60px;
 }
 .contact-right{
-    flex-basis: 40%;
+    width: 40%;
     padding: 40px;
     background: rgb(25, 116, 182);
     color: #fff;
@@ -49,8 +49,14 @@
     margin-bottom: 40px;
 }
 .contact-right .social{
-    flex-basis: 25%;
+    display: flex;  
+    text-align: center;  
 }
+.contact-right .social i{
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
 .contain p{
     margin-bottom: 40px;
 }
@@ -80,14 +86,7 @@
     display: block;
     color: rgb(25, 116, 182);
 }
-.social{
-    align-items: center;
-}
-.social i {
-    align-items: center;
-    cursor: pointer;
-    padding-left: 40px;
-}
+
 .buttons button{
     background: rgb(25, 116, 182);
     width: 100px;
@@ -119,4 +118,29 @@ tr td:first-child{
 }
 tr td{
     padding-top: 30px;
+}
+
+@media (max-width:1150px) {
+    .contain{
+        width: 100%;
+        margin: 10px auto;
+    }  
+    .contact-right{
+        width: 50%;
+    }
+    .contact-left{
+        width: 50%;
+    } 
+}
+@media (max-width:770px) {
+    .contactbox{
+        display: block;
+    }
+    .contact-right{
+        width: 100%;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    
 }

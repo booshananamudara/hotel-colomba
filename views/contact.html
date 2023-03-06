@@ -43,7 +43,7 @@
             <h1>Contact Us</h1>
             <p>Any question or remarks? Just write us a message!</p>
             <div class="contactbox">
-                <div class="contact-right">
+                <div class="contact contact-right">
                     <h2>Contact Information</h2>
                     <p>Fill up the form and our Team will get back to you within 24 hours.</p>
                         <table>
@@ -57,7 +57,7 @@
                             </tr>
                             <tr>
                                 <td><i class="fa-solid fa-location-dot"></i></td>
-                                <td>NO.23,<br>Kinsey Road<br>
+                                <td>NO.23, Kinsey Road,<br>
                                     COLOMBO,<br>SRI-LANKA.
                                 </td>
                             </tr>
@@ -72,28 +72,30 @@
 
     
                 </div>
-                <div class="contact-left">
+                <div class="contact contact-left">
                     <h3>Sent Your Massage</h3>
-                    <form name="myform" method="post" onsubmit="return validateform()">
+                    <form name="myform" method="post">
                         <div class="input-row">
                             <div class="input-group">
-                                <label>name</label>
-                                <input type="text" name="name" placeholder="jon snow" >
+                                <label>First name</label>
+                                <input type="text" name="fname" placeholder="first Name" >
                             </div>
+                            <div class="input-group">
+                                <label>Last name</label>
+                                <input type="text" name="lname" placeholder="last Name" >
+                            </div>
+                            
+                        </div>
+                        <div class="input-row">
                             <div class="input-group">
                                 <label>phone</label>
                                 <input type="text" name="tel" placeholder="+94112-678-578">
                             </div>
-                        </div>
-                        <div class="input-row">
                             <div class="input-group">
                                 <label>E-Mail</label>
-                                <input id="email" type="text" name="email" placeholder="jon snow@got.com" required>
+                                <input id="email" type="text" name="email" placeholder="example@gmail.com" required>
                             </div>
-                            <div class="input-group">
-                                <label>product</label>
-                                <input type="text">
-                            </div>
+                            
                         </div>
                         <label>Massage</label>
                         <textarea rows="5" placeholder="Your Message"></textarea>
@@ -132,10 +134,10 @@
             <div class="footercol">
                 <h3>Links <div class="underline"><span></span></div></h3>
                 <ul>
-                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="#">HOME</a></li>
                     <li><a href="./views/facility.html">FACILITIES</a></li>
                     <li><a href="./views/offers.html">OFFERS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="./views/contact.html">CONTACT</a></li>
                 </ul>
             </div>
             <div class="footercol">
