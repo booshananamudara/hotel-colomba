@@ -79,6 +79,99 @@ h5{
     text-shadow: 0 0 15px #000;
     font-size: 8px;
 }
+.containerl{
+    background-color:white;
+    width: 80%;
+    margin: auto;
+}
+.top {
+    margin-top: 10%;
+  }
+  .flex {
+    display: flex;
+    text-align: center;
+  }
+  .mtop {
+    margin-top: 5%;
+  }
+  
+  .left, .right {
+    width: 50%;
+  }
+  
+  .about {
+    margin-bottom: 50px;
+  }
+  
+  .about .img {
+    position: relative;
+  }
+  
+  .about .image1 {
+    width: 310px;
+    height: 450px;
+  }
+  
+  .about .image2 {
+    width: 325px;
+    height: 220px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 2;
+    right: 30%;
+  }
+  
+  .heading {
+    position: relative;
+  }
+  
+  .heading::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #24c6dc;
+  }
+  
+  .heading h5 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    color: #5f5f5f;
+  }
+  
+  .heading h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+    color: #222222;
+  }
+  
+  .heading p {
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #5f5f5f;
+    margin: 0 0 20px 50px;
+  }
+  
+  .heading .btn1 {
+    margin: 50px 0 20px 50px;
+  }
+  
+  .btn1 {
+    background: rgb(25, 116, 182);
+    color: white;
+    padding: 20px 40px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .btn1:hover{
+    cursor: pointer;
+  }
 @media (max-width : 1110px) {
     .col {
         flex-basis: 100%;
