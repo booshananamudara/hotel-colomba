@@ -189,7 +189,7 @@ body {
     content: '';
     width: 100px;
     height: 4px;
-    background: #C1B086;
+    background: #3f9cc1;
   }
   
   .heading h5 {
@@ -218,9 +218,12 @@ body {
   }
   
   .btn1 {
-    background: #C1B086;
+    background: #3f9cc1;
     color: white;
   }  
+  .btn1:hover{
+    cursor: pointer;
+  }
   /*--------------about--------*/
 /*--------------wrapper--------*/
 .wrapper {
@@ -344,7 +347,7 @@ body {
     border-radius: 3px;
     font-weight: 400;
     font-size: 17px;
-    color: #C1B086;
+    color: #3f9cc1;
     margin-bottom: 20px;
   }
   

@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-/* body{
-  background: linear-gradient(to right, #24c6dc, #514a9d);
-} */
-
 nav {
 	position: fixed;
 	z-index: 10;

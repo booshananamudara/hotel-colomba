@@ -1,0 +1,219 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+/*--------------about--------*/
+.top {
+  margin-top: 7%;
+  margin-bottom: 100px;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100px;
+  height: 4px;
+  background: rgb(58, 71, 159);
+}
+
+.heading h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: #5f5f5f;
+}
+
+.heading h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+  color: #222222;
+}
+
+
+
+.btn1 {
+    background: rgb(25, 116, 182);
+    color: white;
+    padding: 20px 40px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/*--------------about--------*/
+/*--------------wrapper--------*/
+.wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+
+.wrapper .text {
+  background: #3f9cc1;
+  padding: 50px;
+  width: 40%;
+  height: 600px;
+  position: absolute;
+  top: -13%;
+  right: 10%;
+  padding-top: 10%;
+  color: white;
+}
+
+.wrapper .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+}
+
+.wrapper p {
+  margin: 20px 0 50px 0;
+  line-height: 30px;
+}
+
+
+/*--------------wrapper--------*/
+/*--------------room--------*/
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.room .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.room img {
+  width: 100%;
+  height: 100%;
+}
+
+.room .box {
+  box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
+}
+
+#room .container{
+    margin-top:150px;
+}
+
+.room .text {
+  padding: 20px;
+}
+
+.room h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.room p span {
+  font-size: 12px;
+  color: grey;
+}
+
+.room p {
+  font-size: 20px;
+}
+
+/*--------------room--------*/
+/*--------------wrapper2--------*/
+.wrapper2 {
+  background-image: url("../images/hotel-1.jpeg");
+}
+
+.wrapper2 .text {
+  left: 10%;
+}
+
+.wrapper2 h5,
+.wrapper2 h2 {
+  color: white;
+}
+
+.wrapper2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.wrapper2 .para h5 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.wrapper2 .para {
+  margin-left: 10%;
+}
+
+/*--------------wrapper2--------*/
+
+
+@media only screen and (max-width:768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .wrapper .text {
+    width: 80%;
+  }
+
+  .room {
+    margin-bottom: 100px;
+  }
+
+  .room .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+
+}
+
+@media only screen and (max-width:768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .wrapper .text {
+    padding: 10px;
+    height: 600px;
+  }
+
+}
