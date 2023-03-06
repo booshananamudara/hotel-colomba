@@ -112,6 +112,9 @@ footer {
   font-size: 13px;
   line-height: 20px;
 }
+footer p{
+  text-align: left;
+}
 
 .footerrow{
   width: 85%;
@@ -285,6 +288,15 @@ hr{
   .container {
     height: auto;
   }
+  .footerrow .footercol .linksdetails{
+    display: none;
+  }
+}
+@media (max-width : 730px) {
+  .container{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 }
 
 @media (max-width : 700px) {
@@ -297,6 +309,7 @@ hr{
     .footercol:nth-child(2), .footercol:nth-child(3){
       flex-basis:100%;
     }
+    
     
 }
 
