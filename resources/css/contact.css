@@ -1,0 +1,122 @@
+.main-header{
+    text-align: center;
+    font-size:35px;
+    font-weight: bold;
+    padding-top:100px;
+}
+.text-center-header{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+}
+
+.contain{
+    width: 80%;
+    margin: 50px auto;
+}
+.contain h1,p{
+    text-align: center;
+    margin-top:20px;
+}
+.contain h1{
+    padding-top:20px;
+    color: rgb(11, 44, 128);;
+}
+.contain p{
+    color:rgba(0, 0, 0, 0.5);
+}
+.contactbox{
+    background: white ;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 20px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(25, 116, 182);
+    color: #fff;
+    border-radius: 10px;
+}
+.contact-right p{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+.contact-right table{
+    margin-bottom: 40px;
+}
+.contact-right .social{
+    flex-basis: 25%;
+}
+.contain p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.contact-left input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+.contact-left textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+.contact-left label{
+    margin-bottom: 6px;
+    display: block;
+    color: rgb(25, 116, 182);
+}
+.social{
+    align-items: center;
+}
+.social i {
+    align-items: center;
+    cursor: pointer;
+    padding-left: 40px;
+}
+.buttons button{
+    background: rgb(25, 116, 182);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left h3{
+    color: rgb(25, 116, 182);
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.contact-right h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 30px;
+}
